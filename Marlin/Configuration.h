@@ -486,11 +486,8 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3]]]
  */
-#define X_FUDGE (10.0/9.88)
-#define Y_FUDGE (30.00/29.93)
-#define Z_FUDGE (40.0/39.59)
-#define E_FUDGE (50.0/58.0)
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80 * X_FUDGE, 80 * Y_FUDGE, 400.0 * Z_FUDGE, 93.0 * E_FUDGE}  // MXL, Z M8=1.25, MK8
+// Defaults are 80 80 400 93
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80.06, 79.70, 401.39, 80.17}  // MXL, Z M8=1.25, MK8
 
 /**
  * Default Max Feed Rate (mm/s)
