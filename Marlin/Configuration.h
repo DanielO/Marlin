@@ -719,10 +719,10 @@
 // @section machine
 
 // Travel limits after homing (units are in mm)
-#define X_MIN_POS 10
-#define Y_MIN_POS 25
+#define X_MIN_POS 0
+#define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 210
+#define X_MAX_POS 206
 #define Y_MAX_POS 230
 #define Z_MAX_POS 150
 
