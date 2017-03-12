@@ -1,6 +1,8 @@
-# Marlin 3D Printer Firmware
+# Marlin 3D Printer Firmware (for GT2560 based Prusa i3X clone)
 
 <img align="top" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
+
+Printer information: http://www.geeetech.com/wiki/index.php/Prusa_I3_X
 
 Additional documentation can be found at [The Marlin Documentation Project](https://www.marlinfw.org/).
 Please test this firmware and inform us if it misbehaves in any way, volunteers are standing by!
