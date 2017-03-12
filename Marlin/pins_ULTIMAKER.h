@@ -102,7 +102,7 @@
 #define LED_PIN            13
 #define PS_ON_PIN          12
 #define SUICIDE_PIN        54  // PIN that has to be turned on right after start, to keep power flowing.
-
+#define BEEPER_PIN         18  // aka TXD1 (GT2560 + RepRapDiscount Smart Controller)
 //
 // LCD / Controller
 //
